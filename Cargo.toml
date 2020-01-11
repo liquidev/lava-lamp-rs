@@ -1,0 +1,11 @@
+[package]
+name = "blobs"
+version = "0.1.0"
+authors = ["lqdev"]
+edition = "2018"
+
+[dependencies]
+glium = "*"
+rand = { version = "*", features = ["small_rng"] }
+structopt = "*"
+
