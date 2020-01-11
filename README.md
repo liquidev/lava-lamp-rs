@@ -6,6 +6,8 @@ This is a remake of [lava_lamp.nim][original] in Rust and glium. It was made
 primarily to challenge myself and see how much better did I become at low-level
 programming over the past year.
 
+  [original]: https://gist.github.com/liquid600pgm/63537227809e282e88acdb58ba21574a
+
 ## Running
 
 ```
