@@ -199,10 +199,10 @@ struct CliParams {
   #[structopt(short = "c", long, default_value = "0.02")]
   spawn_chance: f32,
 
-  #[structopt(short = "s", long = "size", default_value = "0.5..1.0")]
+  #[structopt(short = "s", long = "speed", default_value = "0.5..1.0")]
   blob_speed: F32Range,
 
-  #[structopt(short = "S", long = "speed", default_value = "32.0..128.0")]
+  #[structopt(short = "S", long = "size", default_value = "32.0..128.0")]
   blob_size: F32Range,
 }
 
